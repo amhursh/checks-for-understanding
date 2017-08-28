@@ -26,7 +26,7 @@ Note: When you're done, submit a PR.
 
 6. What types of variables are accessible in our view templates without explicitly passing them?
 
-  anything in the params.
+  Instance variables.
 
 7. Given the following block of code, how would I pass an instance variable `count` with a value of `1` to my `index.erb` template?
 
@@ -41,8 +41,8 @@ Note: When you're done, submit a PR.
 
   ```ruby
   get '/horses' do
-    @name = 'Mr. Ed'
-    erb :index
+    name = 'Mr. Ed'
+    erb :index, :locals => {name: name}
   end
   ```
 
