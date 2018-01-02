@@ -30,17 +30,19 @@ Note: When you're done, submit a PR.
 
 7. What are some pros/cons of using ReactJS as a frontend tool?
 
-  Pros:
-    * allows for reuse of code
-    * virtual DOM makes js dev easier
-    * relatively light-weight when compared to frameworks (plug and play)
-    * widely used, large community
+  Pros
 
-  Cons:
-    * JSX can be a bit of a pain
-    * Perhaps not as powerful/fully-featured as frameworks
-    * passing props can get pretty convoluted.
-    * abstracting everything into components can make tracking things down and debugging a bit tricky
+  * allows for reuse of code
+  * virtual DOM makes js dev easier
+  * relatively light-weight when compared to frameworks (plug and play)
+  * widely used, large community
+
+  Cons
+
+  * JSX can be a bit of a pain
+  * Perhaps not as powerful/fully-featured as frameworks
+  * passing props can get pretty convoluted.
+  * abstracting everything into components can make tracking things down and debugging a bit tricky
 
 #### Review  
 
